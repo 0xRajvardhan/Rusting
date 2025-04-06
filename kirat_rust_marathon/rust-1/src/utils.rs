@@ -24,3 +24,7 @@ pub fn fibonacci(num: i32) -> i32 {
     }
     return second;
 }
+
+pub fn get_str_len(str: String) -> usize {
+    return str.chars().count();
+}
