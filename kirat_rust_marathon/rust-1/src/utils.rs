@@ -17,7 +17,7 @@ pub fn fibonacci(num: i32) -> i32 {
     if num == 1 {
         return second;
     }
-    for _i in 1..num - 2 {
+    for _i in 0..num - 1 {
         let temp = second;
         second = second + first;
         first = temp;
